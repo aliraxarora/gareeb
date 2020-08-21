@@ -1,0 +1,48 @@
+/*site-nav*/
+.site-nav li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	
+	font-family: Tahoma, sans-serif;
+	
+
+
+
+}
+/*end site-nav*/
+
+/*for removing underline*/
+.site-nav a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 2px black;
+	margin-right: 20px;
+	font-size: 100%;
+	display: block;
+
+}
+/*end for removing underline */
+.site-nav a:hover {
+	background-color:#f4f5f6;
+}
+nav{
+	padding:30px ;
+	background-color:#f7c331;
+	margin-top: 30px;
+}
+header{
+	background-image: url(../web/india.jpg);
+	background-position:center ;
+	background-repeat: no-repeat;
+	
+	
+}
+h1{
+	 text-align:center;
+	 font-size: 350%;
+	 font-family: TAHOMA,sans-serif;
+	 margin-top: 50px;
+	 color:#869960; 
+}

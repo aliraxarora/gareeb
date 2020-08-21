@@ -1,0 +1,174 @@
+
+/*site-nav*/
+.site-nav li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	
+	font-family: Tahoma, sans-serif;
+	
+
+
+
+}
+/*end site-nav*/
+
+/*for removing underline*/
+.site-nav a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 2px black;
+	margin-right: 20px;
+	font-size: 100%;
+	display: block;
+
+}
+/*end for removing underline */
+.site-nav a:hover {
+	background-color:#f4f5f6;
+}
+nav{
+	padding:30px ;
+	background-color:#f7c331;
+	margin-top: 30px;
+}
+
+header{
+	background-image: url(../web/india.jpg);
+	background-position:center ;
+	background-repeat: no-repeat;
+	
+	
+}
+
+footer{
+	padding: 50px;
+	background-color:#f7c331;
+
+}
+ul{
+	color: black;
+	font-size: 100%;
+}
+footer p{
+	color:red;
+}
+/*text editing*/
+h1{
+	color:black;
+	font-size: 200%;
+	font-family:georgia;
+	
+
+}
+img{
+	max-width:80%;
+	height: auto;
+
+
+}
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+/*responsive screen for 480 px*/
+@media screen and (max-width: 480px)
+{
+.container{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+
+
+
+}
+
+/*end*/
+/*for making link in on row only 3*/
+@media screen and (max-width: 700px)
+{
+	.site-nav li {
+		width: 50%;
+		margin-right: 0;
+	}
+	.site-nav a {
+		padding: 15px 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+
+	}
+}
+
+
+
+
+
+
+.content-area,
+.content-area1 {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	font-family: Georgia,"Times New Roman",serif;
+	line-height: 1.5;
+	
+}
+.main-area,
+.main-area1{
+	width: 66%;
+	float: left;
+}
+.side-bar,
+.side-bar1{
+	width:34%;
+	float: left;
+	background-color:#CAE7DF ;
+	background-image: -webkit-gradient (linear,left top,left bottom,from(#f7c331), to(#dcc7aa));
+	background-image: -webkit-linear-gradient(top,#f7c331,#dcc7aa);
+	background-image: -ms-linear-gradient(top,#f7c331,#dcc7aa);
+	background-image: -o-linear-gradient(top,#f7c331,#dcc7aa);
+	background-image: linear-gradient(to bottom,#f7c331,#dcc7aa);
+	box-sizing: border-box;
+	padding: 10px 10px;
+
+}
+/*responsive screen size for 700 px*/
+
+
+@media screen and (max-width: 700px){
+
+.main-area,
+.side-bar,
+.main-bar1,
+.side-bar1{
+	width: auto;
+	float: none;
+
+}
+.main-area{
+	padding-right: 0;
+}
+h1{
+	font-size: 150%;
+}
+.site-nav li{
+	width: 50%;
+	margin-right: 0;
+}
+
+}
+
+/*end*/
+
+.fix{
+	clear: both;
+}
+html{
+     background-color: #led2f4;
+     font-size: 100%;
+
+}

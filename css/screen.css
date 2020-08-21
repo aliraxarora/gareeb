@@ -1,0 +1,23 @@
+.box-a{
+       background-color: sky blue;
+       padding: 30px;
+       border: 3px solid red;
+       margin-bottom: 30px;
+       margin-top: 30px;
+       box-sizing: border-box;
+}
+h1{
+	color:red;
+	text-align: center;
+	font-style: italic;
+	font-family: initial;
+	font-size: 50px;
+}
+.box-b{
+	background-color: white;
+	padding: 30px;
+	border: 3px solid red;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
